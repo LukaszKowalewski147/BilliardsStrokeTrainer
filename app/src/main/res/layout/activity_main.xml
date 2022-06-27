@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background_main_table">
+
+    <Button
+        android:id="@+id/main_go_to_shot_listener_btn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/main_go_to_database_btn"
+        android:layout_marginBottom="90dp"
+        android:text="Rozpocznij"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:id="@+id/main_go_to_database_btn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/main_go_to_stats_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/custom_button"
+        android:text="Moje uderzenia"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/main_go_to_stats_btn"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:text="Statystyki"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/custom_button"/>
+
+</RelativeLayout>
